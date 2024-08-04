@@ -30,7 +30,7 @@ public class Board {
         this.columns = columns;
     }
 
-    private Piece piece (Integer row, Integer column) {
+    public Piece piece (Integer row, Integer column) {
         return pieces[row][column];
     }
 
