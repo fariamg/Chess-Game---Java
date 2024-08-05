@@ -1,4 +1,4 @@
-package boardLayer;
+package boardLayer.entities;
 
 public class Position {
 

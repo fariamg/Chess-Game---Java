@@ -1,7 +1,7 @@
-package chessLayer.pieces;
+package chessLayer.entities.pieces;
 
-import boardLayer.Board;
-import chessLayer.ChessPiece;
+import boardLayer.entities.Board;
+import chessLayer.entities.ChessPiece;
 import chessLayer.enums.Color;
 
 public class King extends ChessPiece {

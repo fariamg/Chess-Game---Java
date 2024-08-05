@@ -1,9 +1,9 @@
-package chessLayer;
+package chessLayer.entities;
 
-import boardLayer.Board;
-import boardLayer.Position;
+import boardLayer.entities.Board;
+import boardLayer.entities.Position;
 import chessLayer.enums.Color;
-import chessLayer.pieces.Rook;
+import chessLayer.entities.pieces.Rook;
 
 public class ChessMatch  {
 
@@ -25,7 +25,7 @@ public class ChessMatch  {
     }
 
     private void initialSetup() {
-        board.placePiece(new Rook(board, Color.WHITE), new Position(2, 1));
+        board.placePiece(new Rook(board, Color.WHITE), new Position(5, 1));
     }
 }
 

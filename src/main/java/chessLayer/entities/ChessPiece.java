@@ -1,7 +1,7 @@
-package chessLayer;
+package chessLayer.entities;
 
-import boardLayer.Board;
-import boardLayer.Piece;
+import boardLayer.entities.Board;
+import boardLayer.entities.Piece;
 import chessLayer.enums.Color;
 
 public abstract class ChessPiece extends Piece {

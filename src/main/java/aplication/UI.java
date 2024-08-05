@@ -1,6 +1,6 @@
 package aplication;
 
-import chessLayer.ChessPiece;
+import chessLayer.entities.ChessPiece;
 
 public class UI {
 

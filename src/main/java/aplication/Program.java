@@ -1,6 +1,6 @@
 package aplication;
 
-import chessLayer.ChessMatch;
+import chessLayer.entities.ChessMatch;
 
 public class Program {
     public static void main(String[] args) {
