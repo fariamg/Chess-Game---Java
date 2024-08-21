@@ -2,6 +2,7 @@ package chessLayer.entities;
 
 import boardLayer.entities.Board;
 import boardLayer.entities.Piece;
+import boardLayer.entities.Position;
 import chessLayer.enums.Color;
 
 public abstract class ChessPiece extends Piece {
@@ -15,5 +16,10 @@ public abstract class ChessPiece extends Piece {
 
     public Color getColor() {
         return color;
+    }
+
+    protected boolean isThereOpponentPiece(Position position) {
+        ChessPiece p = (ChessPiece)getBoard().piece(position);
+        return p != null && p.getColor() != color;
     }
 }
