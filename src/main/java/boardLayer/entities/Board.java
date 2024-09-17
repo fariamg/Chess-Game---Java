@@ -53,11 +53,11 @@ public class Board {
         return temp;
     }
 
-    private Boolean positionExists(int row, int column) {
+    private boolean positionExists(int row, int column) {
         return row >= 0 && row < rows && column >= 0 && column < columns;
     }
 
-    public Boolean positionExists(Position position) {
+    public boolean positionExists(Position position) {
         return positionExists(position.getRow(), position.getColumn());
     }
 
